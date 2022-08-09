@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First sample</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header-wrapper">
+        
+            <button class="MenuBar">Home</button>
+            <button class="MenuBar">Careers</button>
+            <button class="MenuBar">Cadidate Login</button>
+            <button class="MenuBar">Help</button>
+            
+        
+
+    </header>
+    <h1>Application form for ABC job</h1>
+   <hr>
+    <section class="personal">
+        <h2>Personal Details</h2>  
+
+        <table>
+            <tr>
+                <td>Name  :</td>
+                <td><input type="text" title="Name" ></p></td>
+            </tr>
+            <tr>
+                <td>Adress :</td>
+                <td><textarea name="adressBox" id="adressBox" rows="10" cols="50"></textarea></td>
+            </tr>
+            <tr> 
+            <td> Date of Birth :</td>
+            <td> <input type="date" name="doi" id="doi"></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td><input type="radio" name="Gender" id="Male">Male
+                    <input type="radio" name="Gender" id="Female">Female
+                    <input type="radio" name="Gender" id="Others">Others</td>
+            </tr>
+            <tr> 
+                <td> Are you a Differently abled person</td>
+                <td><input type="radio" name="YesNo" id="Yes">Yes
+                    <input type="radio" name="YesNo" id="No">No</td>
+            </tr>
+        </table>
+        <br>
+    </section>  
+    <hr>
+    <section class="qualification">
+        <h2>Educational Details</h2>
+        <table class="Qualificationtable">
+            <th> Qualification</th>
+            <th>Name of institution </th>
+            <th>year of passing</th>
+            <th>Percentage</th>
+            <tr>
+                <td> Degree</td>
+                <td><input type="text" title="Degree"></td>
+                <td><input type="text" ></td>
+                <td><input type="text" ></td>
+            </tr>
+            <tr>
+                <td> Plus Two</td>
+                <td><input type="text" title="Degree"></td>
+                <td><input type="text" ></td>
+                <td><input type="text" ></td>
+            </tr>
+            <tr>
+                <td> 10 <sup>th</sup></td>
+                <td><input type="text" title="Degree"></td>
+                <td><input type="text" ></td>
+                <td><input type="text" ></td>
+            </tr>
+        </table>
+    
+    </section>
+    <hr>
+    <section class="exam center">
+
+        <table>
+            <tr>
+                <td>Choose exam center</td>
+                <td><select name="centers" id="centers">
+                    <option value="Bangalore">Bangalore</option>
+                    <option value="Chennai">Chennai</option>
+                    <option value="Kochi">Kochi</option>
+                    <option value="Trivandrum">Trivandrum</option>
+                  </select></td>
+            </tr>
+        </table>
+    </section>
+    <div class="Declaration">
+        <h2>Declaration</h2>
+        <p><input type="checkbox" name="declaration" id="declaration">
+         "I &nbsp;<input type="text" title="Name"> hereby declare that all the information
+         submitted by me in the application form is correct, true, and valid.
+         I will present the supporting documents as and when required.”</p>
+         <div class="Submit">
+            <input class="button" type="submit" name="Submit" title="Submit"/>  
+        </div>
+        
+    </div>
+    
+   
+</body>
+</html>
