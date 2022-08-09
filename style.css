@@ -17,6 +17,11 @@ header{
     background-color: rgb(211, 43, 226);
     color: aliceblue;
   }
+hr{
+  background-color: aliceblue;
+  height: 12px;
+  width: 100%;
+}
 h1{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
@@ -36,6 +41,8 @@ margin-right: 50%;
 .button{
   background-color: firebrick;
   color: aliceblue;
+  padding: 10px 24px;
+  border-radius: 12px;
 }
 
 /*@media only screen and (min-width: 700px) */
